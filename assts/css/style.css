@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+div{
+    background-image: url("../pic/metro1.jpg");
+    background-size: cover;
+    height:350px ;
+}
+h1{
+    margin: 10px 0;
+    color: #fff;
+}
+h2{
+    margin-bottom: 20px;
+
+}
+#increment-btn , #save-btn , #reset-btn{
+    border: none;
+    padding: 10px 5px;
+    color: #fff;
+    width: 150px;
+    border-radius: 7px;
+}
+#increment-btn{
+    background-color: #008800;
+}
+#save-btn{
+    background-color: #000088;
+}
+#reset-btn{
+    background-color: #880000;
+}
+#increment-btn:hover , #save-btn:hover , #reset-btn:hover{
+    opacity: 0.7;
+}
+h2 , p{
+    background-color: #fff;
+    width: fit-content;
+    margin: 15px auto;
+    opacity: 0.8;
+}
