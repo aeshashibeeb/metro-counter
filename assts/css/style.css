@@ -16,7 +16,7 @@ h2{
     margin-bottom: 20px;
 
 }
-#increment-btn , #save-btn , #reset-btn{
+#increment-btn , #save-btn , #reset-btn , #delete-btn{
     border: none;
     padding: 10px 5px;
     color: #fff;
@@ -32,7 +32,10 @@ h2{
 #reset-btn{
     background-color: #880000;
 }
-#increment-btn:hover , #save-btn:hover , #reset-btn:hover{
+#delete-btn{
+    background-color: #888800;
+}
+#increment-btn:hover , #save-btn:hover , #reset-btn:hover , #delete-btn:hover{
     opacity: 0.7;
 }
 h2 , p{
